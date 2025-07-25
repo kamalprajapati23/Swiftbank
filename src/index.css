@@ -1,0 +1,282 @@
+.slider {
+  height: 400px;
+  width: 100%;
+  background: burlywood;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.slider-content {
+  max-width: 700px;
+  padding: 20px;
+  animation: fadeInUp 1.2s ease-in-out;
+}
+
+.brand {
+  color: #00ffcc;
+  font-weight: bold;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.welcome-text {
+  color: orange;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.brand {
+  color: #00ffcc;
+  font-weight: bold;
+}
+.about-section {
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+.about-section h2 {
+  font-weight: 700;
+}
+
+.about-section i {
+  color: #0dcaf0;
+}
+/* service-card */
+.service-card {
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+/* login rajistation form */
+
+.auth-container {
+  width: 90%;
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-toggle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.auth-toggle button {
+  padding: 10px 20px;
+  border: none;
+  background: #e0e0e0;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.auth-toggle .active {
+  background: #00bcd4;
+  color: white;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #00bcd4;
+}
+
+.auth-form input {
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.auth-form button {
+  background: #00bcd4;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+/* Auth.css */
+
+.auth-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  background: #f4f4f4;
+  border-radius: 12px;
+  margin-top: 50px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.auth-form input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+}
+
+
+.welcome-text {
+  font-size: 48px;
+  font-weight: 700;
+  color: #1a1a1a; /* Dark gray for contrast */
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.6);
+}
+
+.brand {
+  color: #0d6efd; /* Bootstrap primary blue or try #212529 for dark */
+  font-weight: 800;
+  text-shadow: 1px 1px 2px #ffffff;
+}
+
+.slider-content p {
+  font-size: 18px;
+  color: #212529;
+}
+
+.slider .btn {
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid #fff;
+}
+.auth-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.auth-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #f7f7f7;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form input {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  .auth-form .col-md-6 {
+    flex: 0 0 50%;
+  }
+}
+.card h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+input::placeholder {
+  font-size: 0.9rem;
+}
+/* src/component/TransactionTable.css */
+table th, table td {
+  vertical-align: middle;
+}
+
+.badge {
+  font-size: 0.9rem;
+  padding: 5px 10px;
+}
+
+/* src/component/Auth.css */
+.auth-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* index.css */
+
+/* Footer Custom Styles */
+footer {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+footer a {
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: #00d9ff;
+  text-decoration: underline;
+}
+
+footer .bi {
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+footer .bi:hover {
+  color: #0dcaf0;
+}
+form {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+

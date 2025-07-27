@@ -30,7 +30,11 @@ function Navbar() {
               <ul className="dropdown-menu">
                 <li className="nav-item">
                   <NavLink className="nav-link" to="/home-loan">Home Loan</NavLink></li>
-                <li><Link className="dropdown-item" to="/farmer">Farmer Loan</Link></li>
+
+
+                <li className="nav-item">
+                <NavLink className="nav-link" to="/farmer">Farmer Loan</NavLink></li>
+                
                 <li className="nav-item">
                   <NavLink className="nav-link" to="/business-loan">Business Loan</NavLink>
                 </li>
